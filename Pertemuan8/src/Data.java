@@ -1,0 +1,43 @@
+/*  NIM: 24060124140136
+    Nama: Arini latifatul Qalbiah
+    Tanggal: 3 Mei 2026
+    */
+
+public class Data<T> {
+    private static final int max = 100;
+    private Object[] ruang; 
+    private int banyak;
+
+    public Data() {
+        ruang = new Object[max];
+        banyak = 0;
+    }
+
+    // setIsi: isi elemen di posisi tertentu (1-100)
+    public void setIsi(int posisi, T nilai) {
+        if (posisi >= 1 && posisi <= max) {
+            ruang[posisi - 1] = nilai;
+
+            if (posisi > banyak) {
+                banyak = posisi;
+            }
+        } else {
+            System.out.println("Posisi tidak valid!");
+        }
+    }
+
+    // getIsi: ambil elemen di posisi tertentu
+    @SuppressWarnings("unchecked")
+    public T getIsi(int posisi) {
+        if (posisi >= 1 && posisi <= banyak) {
+            return (T) ruang[posisi - 1];
+        } else {
+            return null;
+        }
+    }
+
+    // getSize: jumlah elemen
+    public int getSize() {
+        return banyak;
+    }
+}
