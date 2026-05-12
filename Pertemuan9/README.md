@@ -1,18 +1,2 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Pertemuan 9
+Koleksi merupakan konsep yang memungkinkan suatu program untuk menyimpan dan mengelola sekumpulan data atau objek dalam satu wadah secara lebih terstruktur dan dinamis. Cara kerjanya yaitu dengan menyediakan berbagai jenis struktur penyimpanan data seperti List, Set yang masing-masing memiliki aturan dan fungsi berbeda sesuai kebutuhan penggunaannya. Dengan koleksi, data dapat ditambahkan, dihapus, dicari, maupun ditampilkan kembali dengan lebih mudah tanpa harus mengatur ukuran data secara manual seperti pada array. Hal ini membuat pengelolaan data menjadi lebih fleksibel, efisien, dan terorganisir terutama ketika jumlah data terus berubah selama program dijalankan.
